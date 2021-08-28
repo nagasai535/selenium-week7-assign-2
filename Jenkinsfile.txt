@@ -1,8 +1,8 @@
 node {
 	
 	stage ('Test'){
-    	dir("/src/week7/") {
-	   sh "Assignment2.java"
+    	
+	   bat "java -jar src/week7/com.test-1.0-SNAPSHOT.jar"
        }
 	}
 
