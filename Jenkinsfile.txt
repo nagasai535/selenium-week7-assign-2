@@ -4,6 +4,6 @@ node {
     	
 	   bat "java -jar src/week7/com.test-1.0-SNAPSHOT.jar"
        }
-	}
+	
 
 }
