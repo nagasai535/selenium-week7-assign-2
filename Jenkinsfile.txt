@@ -1,11 +1,9 @@
 node {
-	stage ('SCM checkout'){
-		git "https://github.com/nagasai535/selenium-week7-assign-2.git"
-		}
+	
 	stage ('Test'){
-    	dir("/src/week7/") {
-	   bat "Assignment2.java"
+    	
+	   bat "java -jar src/week7/com.test-1.0-SNAPSHOT.jar"
        }
-	}
+	
 
 }
