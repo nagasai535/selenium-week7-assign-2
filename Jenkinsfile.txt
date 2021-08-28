@@ -4,7 +4,7 @@ node {
 		}
 	stage ('Test'){
     	dir("/src/week7/") {
-	   bat "Assignment2.java"
+	   sh "Assignment2.java"
        }
 	}
 
