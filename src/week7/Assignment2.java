@@ -12,7 +12,7 @@ public class Assignment2 {
 		System.out.println("Welcome  to Ebay...");
 		driver.get("https://www.ebay.com/");
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		driver.close();
 		
 		
